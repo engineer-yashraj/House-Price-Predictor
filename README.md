@@ -1,37 +1,59 @@
-# House-Price-Predictor
-<br>
+# House Price Predictor
 
-### Author - Yash Raj
-<br>
-Discriptin - ​This project is a Machine Learning web application that predicts house prices based on the California Housing dataset. It features a user-friendly interface built with Streamlit and a regression model trained using Scikit-Learn.
-<br>
-​🔗 Live Web App
-<br>
+A Machine Learning web application that predicts house prices using the California Housing dataset. The project uses a Scikit-Learn regression model and provides real-time predictions through a Streamlit interface.
 
-### ​🛠️ Key Features
-<br>
-​-Real-time Prediction: Enter house details to get an instant price estimate.
-<br>
-​-Machine Learning Backend: Uses a serialized .pkl model for fast inference.
-<br>
-​-Cloud Hosted: Fully deployed and accessible via the web.
-<br>
+## Live Demo
 
-### ​📂 File Structure:
-<br>
-​-streamlit_app.py: The frontend UI and prediction logic.
-​<br>
--house_model.pkl: The trained ML model.
-<br>
-​-notebooks/: Research and model training steps.
-<br>
-​-requirements.txt: Necessary Python libraries for deployment.
-<br>
+App: https://techplayer21-house-price-predictor-streamlit-app-nct0ai.streamlit.app/
 
-### 🚀 How to Run:
-<br>
-​-Clone this repository.
-<br>
-​-Install dependencies: pip install -r requirements.txt.
-<br>
-​-Run the application: streamlit run streamlit_app.py.
+## Tech Stack
+
+* Python
+* Pandas
+* NumPy
+* Scikit-Learn
+* Streamlit
+* Joblib
+* Git/GitHub
+
+## Features
+
+* House price prediction
+* Real-time user input
+* Regression-based ML model
+* Streamlit web interface
+* Model persistence using Joblib
+* Cloud deployment
+
+## Project Structure
+
+house-price-predictor/
+
+├── streamlit_app.py
+
+├── house_model.pkl
+
+├── notebooks/
+
+├── requirements.txt
+
+└── .gitignore
+
+## Run Locally
+
+pip install -r requirements.txt
+
+streamlit run streamlit_app.py
+
+Open:
+
+http://localhost:8501
+
+## Model
+
+* Scikit-Learn Regression Model
+* California Housing Dataset
+
+## Author
+
+Yash Raj
